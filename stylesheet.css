@@ -1,0 +1,79 @@
+.header {
+	background-image: url(images/BG.jpg);
+	background-repeat: repeat-x;
+	height: 350px;
+	background-position: 0% 50%;
+}
+.nav {
+	height: 500px;
+	background-color: hsla(248,17%,72%,1.00);
+}
+.wrapper {
+	margin-right: auto;
+	margin-left: auto;
+	width: 80%;
+}
+.fontframe {
+	font-family: "sedgwick co";
+}
+.line  {
+	border-bottom: 2px dotted hsla(359,86%,56%,1.00);
+}
+#flax {
+	position: relative;
+}
+.cube {
+	position: absolute;
+	width: 148px;
+	height: 152px;
+	text-align: center;
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	background-color: hsla(0,4%,71%,1.00);
+	left: 380px;
+	top: 128px;
+}
+.cubefont {
+	position: relative;
+	left: 5px;
+	top: 50px;
+	font-family: "微軟正黑體";
+	font-weight: bolder;
+	font-size: 2em;
+}
+.cube1 {
+	top: 211px;
+	left: 209px;
+}
+.image1 {
+	top: 340px;
+	left: 58px;
+}
+.image2 {
+	margin-top: 0px;
+	top: 122px;
+	left: 359px;
+}
+.image3 {
+	left: 59px;
+}
+#adv {
+	width: 100%;
+	height: 86px;
+	position: absolute;
+	background-color: hsla(140,63%,70%,0.50);
+	top: 84px;
+	left: 3px;
+	font-weight: bolder;
+}
+#closead {
+	width: 85px;
+	height: 27px;
+	position: absolute;
+	right: 448px;
+	top: 92px;
+	text-align: center;
+	padding-top: 5px;
+	background-color: hsla(359,65%,84%,1.00);
+	cursor: pointer;
+}

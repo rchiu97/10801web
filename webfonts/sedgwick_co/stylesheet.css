@@ -1,0 +1,45 @@
+.header {
+	background-image: url(images/BG.jpg);
+	background-repeat: no-repeat;
+	height: 350px;
+	background-position: 0% 50%;
+}
+.nav {
+	height: 500px;
+	background-color: hsla(248,17%,72%,1.00);
+}
+.wrapper {
+	margin-right: auto;
+	margin-left: auto;
+	width: 90%;
+}
+.fontframe {
+	font-family: "sedgwick co";
+}
+.line  {
+	border-bottom: 2px dotted hsla(359,86%,56%,1.00);
+}
+#flax {
+	position: relative;
+}
+.cube {
+	position: absolute;
+	width: 148px;
+	height: 148px;
+	text-align: center;
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	background-color: hsla(0,4%,71%,1.00);
+}
+.cubefont {
+	position: relative;
+	left: 5px;
+	top: 40px;
+	font-family: "微軟正黑體";
+	font-weight: bolder;
+	font-size: 2em;
+}
+.cube1 {
+	top: 120px;
+	left: 220px;
+}
